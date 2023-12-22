@@ -26,7 +26,7 @@ public class NioClient {
 
         Socket socket = new Socket("127.0.0.1",8083);
         OutputStream outputStream = socket.getOutputStream();
-        outputStream.write("hello world!".getBytes());
+        outputStream.write("hello world12334!".getBytes());
         outputStream.close();
         socket.close();
 
